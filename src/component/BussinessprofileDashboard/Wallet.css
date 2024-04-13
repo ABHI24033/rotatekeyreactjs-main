@@ -1,0 +1,143 @@
+.wallet-container {
+    margin: 0 1cm;
+    width: 8cm;
+    height: 10cm;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: linear-gradient( rgb(57, 218, 240) 30%, rgb(211, 211, 211) 20%);
+
+    transition:all 500ms ease ;
+    -webkit-transition:all 500ms ease ;
+    -moz-transition:all 500ms ease ;
+    -ms-transition:all 500ms ease ;
+    -o-transition:all 500ms ease ;
+}
+  
+  .wallet-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .wallet-balance {
+    text-align: center;
+    font-size: 24px;
+  }
+  .add-money{
+    background-color: rgb(57, 218, 240) ;
+    color: black;
+    width: 6.8cm;
+    height: 1cm;
+  }
+  
+  .wallet-input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+    width: 6.8cm;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    outline: none;
+  }
+
+  .wallet-container:hover{
+    /* transition:  all 500ms ease ; */
+    border-color: black ;
+    background-color: transparent;
+   
+}
+/*   
+  .wallet-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    outline: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wallet-button:hover {
+    background-color: #3e8e41;
+  } */
+
+
+  .offer-container {
+    /* background: rgb(253, 172, 172); */
+    background-image: linear-gradient(180deg, rgb(121, 179, 255), rgb(0, 110, 255));
+    width: 5.5cm;
+    height: fit-content;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 20px 0 20px;
+    transition:all 500ms ease ;
+    -webkit-transition:all 500ms ease ;
+    -moz-transition:all 500ms ease ;
+    -ms-transition:all 500ms ease ;
+    -o-transition:all 500ms ease ;
+}
+  .offer-title {
+   justify-content: center;
+   text-align: center;
+   font-size: 18px;
+   font-style: normal;
+   padding: 2px 10px 2px 10px;
+   border: 1.5px solid rgb(0, 255, 255);
+   border-radius: 5px;
+   color: rgb(255, 255, 255);
+  }
+  .offer-quote{
+    color: white;
+    text-align: center;
+  }
+  .button-offer{
+    padding: 2px 10px 2px 10px;
+    border: 1.5px solid rgb(3, 255, 255);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+  }
+  .offer-container:hover {
+border: 1.5px solid  rgb(126, 128, 128);
+width: 5.6cm;
+  }
+  
+  .offer-container:hover .offer-title{
+    background-image: linear-gradient(180deg, rgb(157, 159, 248), rgb(0, 110, 255));
+
+  }
+  .offer-container:hover .button-offer{
+    background-image: linear-gradient(180deg, rgb(157, 159, 248), rgb(0, 110, 255));
+
+  }
+  /* .offer-container:hover .offer-quote{
+    padding: 10px 0 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, rgb(115, 115, 133), rgb(32, 67, 112));
+
+  } */
+  /* @media screen and (max-width:1024px) {
+    .wallet-container2{
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        
+    } */
+
+@media screen and (max-width:600px) {
+    .offer-container{
+        margin: 1cm;
+    }
+}

@@ -1,0 +1,905 @@
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3 ; media=all */
+@media all {
+
+    h3,
+    h4 {
+        overflow-wrap: break-word;
+    }
+
+    ul {
+        overflow-wrap: break-word;
+    }
+
+    p {
+        overflow-wrap: break-word;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/font-awesome/all.min.css?ver=3.4.8 ; media=all */
+@media all {
+
+    .fa,
+    .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+
+    .fa-angle-right:before {
+        content: "\f105";
+    }
+
+    .fa-briefcase:before {
+        content: "\f0b1";
+    }
+
+    .fa-car:before {
+        content: "\f1b9";
+    }
+
+    .fa-coffee:before {
+        content: "\f0f4";
+    }
+
+    .fa-desktop:before {
+        content: "\f108";
+    }
+
+    .fa-long-arrow-alt-right:before {
+        content: "\f30b";
+    }
+
+    .fa-paw:before {
+        content: "\f1b0";
+    }
+
+    .fa-wrench:before {
+        content: "\f0ad";
+    }
+
+    .fa,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+    }
+
+    .fa,
+    .fas {
+        font-weight: 900;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/css/font-awesome.min.css?ver=4.5.6 ; media=all */
+@media all {
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .pull-left {
+        float: left;
+    }
+
+    .fa-wrench:before {
+        content: "\f0ad";
+    }
+
+    .fa-briefcase:before {
+        content: "\f0b1";
+    }
+
+    .fa-coffee:before {
+        content: "\f0f4";
+    }
+
+    .fa-angle-right:before {
+        content: "\f105";
+    }
+
+    .fa-desktop:before {
+        content: "\f108";
+    }
+
+    .fa-paw:before {
+        content: "\f1b0";
+    }
+
+    .fa-car:before {
+        content: "\f1b9";
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/css/frontend.css?ver=4.5.6 ; media=all */
+@media all {
+
+    .clearfix:after,
+    .clearfix:before {
+        display: table;
+        content: "";
+    }
+
+    .clearfix:after,
+    .clearfix:before {
+        clear: both;
+    }
+
+    .clearfix {
+        *zoom: 1;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/css/bootstrap.css?ver=1 ; media=all */
+@media all {
+    section {
+        display: block;
+    }
+
+    a {
+        background-color: transparent;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+    @media print {
+
+        *,
+        *:before,
+        *:after {
+            color: #000 !important;
+            text-shadow: none !important;
+            background: transparent !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+            text-decoration: underline;
+        }
+
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
+
+        p,
+        h3 {
+            orphans: 3;
+            widows: 3;
+        }
+
+        h3 {
+            page-break-after: avoid;
+        }
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    *:before,
+    *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    a {
+        color: #337ab7;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+        color: #23527c;
+        text-decoration: underline;
+    }
+
+    a:focus {
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+
+    h3,
+    h4 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        margin: 0 0 10px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+
+    ul {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .col-md-4,
+    .col-lg-4,
+    .col-sm-6,
+    .col-md-7,
+    .col-lg-7 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    @media (min-width: 768px) {
+        .col-sm-6 {
+            float: left;
+        }
+
+        .col-sm-6 {
+            width: 50%;
+        }
+    }
+
+    @media (min-width: 992px) {
+
+        .col-md-4,
+        .col-md-7 {
+            float: left;
+        }
+
+        .col-md-7 {
+            width: 58.33333333%;
+        }
+
+        .col-md-4 {
+            width: 33.33333333%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+
+        .col-lg-4,
+        .col-lg-7 {
+            float: left;
+        }
+
+        .col-lg-7 {
+            width: 58.33333333%;
+        }
+
+        .col-lg-4 {
+            width: 33.33333333%;
+        }
+    }
+
+    .clearfix:before,
+    .clearfix:after,
+    .container:before,
+    .container:after,
+    .row:before,
+    .row:after {
+        display: table;
+        content: " ";
+    }
+
+    .clearfix:after,
+    .container:after,
+    .row:after {
+        clear: both;
+    }
+
+    .center-block {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pull-left {
+        float: left !important;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/css/classiera-components.css?ver=1 ; media=all */
+@media all {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media screen and (min-width: 1199px) {
+        .container {
+            width: 1200px;
+        }
+    }
+
+    h3,
+    h4 {
+        font-family: 'Ubuntu', sans-serif;
+        color: #232323;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    .center-block {
+        float: none;
+    }
+
+    .section-pad {
+        padding: 50px 0;
+    }
+
+    .center-block {
+        float: none;
+    }
+
+    .border {
+        border: 1px solid #e0e0e0;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #e0e0e0;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/css/classiera.css?ver=1 ; media=all */
+@media all {
+
+    .category-v2 .category-box .category-content ul li a,
+    .category-v2 .category-box .category-content ul li a i,
+    .category-v2 .category-box .category-content .view-button a {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .section-heading-v1 {
+        margin-bottom: 50px;
+    }
+
+    .section-heading-v1 h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-heading-v1 p {
+        font-size: 16px;
+        color: #6c6c6c;
+        text-align: center;
+    }
+
+    .category-v2 .category-box {
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    .category-v2 .category-box .category-heading .category-icon-box {
+        width: 60px;
+        height: 60px;
+        line-height: 70px;
+        text-align: center;
+        background: #fafafa;
+        border-right: 1px solid #e0e0e0;
+        border-top-left-radius: 10px;
+        margin-right: 15px;
+    }
+
+    .category-v2 .category-box .category-heading .category-icon-box i {
+        font-size: 24px;
+    }
+
+    .category-v2 .category-box .category-heading .category-heading-content {
+        padding-top: 14px;
+    }
+
+    .category-v2 .category-box .category-heading .category-heading-content h4 {
+        margin: 0;
+    }
+
+    .category-v2 .category-box .category-heading .category-heading-content p {
+        margin: 0;
+    }
+
+    .category-v2 .category-box .category-content {
+        padding: 15px;
+    }
+
+    .category-v2 .category-box .category-content ul {
+        list-style: none;
+    }
+
+    .category-v2 .category-box .category-content ul li a {
+        background: #fafafa;
+        color: #6c6c6c;
+        font-size: 13px;
+        display: block;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        height: 30px;
+        line-height: 30px;
+        padding-right: 20px;
+    }
+
+    .category-v2 .category-box .category-content ul li a i {
+        width: 30px;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 14px;
+        display: inline-block;
+        padding: 8px 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .category-v2 .category-box .category-content ul li a span {
+        float: right;
+    }
+
+    .category-v2 .category-box .category-content ul li a:hover {
+        color: #fff;
+    }
+
+    .category-v2 .category-box .category-content ul li a:hover i {
+        background: #232323;
+        color: #fff;
+    }
+
+    .category-v2 .category-box .category-content .view-button {
+        padding: 10px 0;
+    }
+
+    .category-v2 .category-box .category-content .view-button a {
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: #232323;
+    }
+
+    .category-v2 .category-box .category-content .view-button a i {
+        padding-left: 10px;
+    }
+
+    .category-v2 .category-box .category-content .view-button a:hover {
+        color: #b6d91a;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/css/fontawesome.css?ver=1 ; media=all */
+@media all {
+
+    .fa,
+    .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+
+    .fa-angle-right:before {
+        content: "\f105";
+    }
+
+    .fa-briefcase:before {
+        content: "\f0b1";
+    }
+
+    .fa-car:before {
+        content: "\f1b9";
+    }
+
+    .fa-coffee:before {
+        content: "\f0f4";
+    }
+
+    .fa-desktop:before {
+        content: "\f108";
+    }
+
+    .fa-long-arrow-alt-right:before {
+        content: "\f30b";
+    }
+
+    .fa-paw:before {
+        content: "\f1b0";
+    }
+
+    .fa-wrench:before {
+        content: "\f0ad";
+    }
+
+    .fa,
+    .fas {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/css/responsive.css?ver=1 ; media=all */
+@media all {
+    @media only screen and (max-width: 640px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+    }
+
+    @media only screen and (min-width: 640px) and (max-width: 767px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+    }
+
+    @media only screen and (min-width: 960px) and (max-width: 1024px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+    }
+}
+
+/*! CSS Used from: Embedded */
+.category-v2 .category-box .category-content .view-button a:hover {
+    color: #00AEFF !important;
+}
+
+.category-v2 .category-box .category-content ul li a:hover i {
+    background: #2D343E;
+}
+
+.category-v2 .category-box .category-content .view-button a {
+    color: #2D343E;
+}
+
+/*! CSS Used from: Embedded */
+h3 {
+    font-family: Montserrat;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #232323;
+    font-size: 24px;
+    font-display: swap;
+}
+
+h4 {
+    font-family: Montserrat;
+    line-height: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #232323;
+    font-size: 18px;
+    font-display: swap;
+}
+
+div,
+a,
+i,
+ul,
+li,
+section {
+    font-family: "Open Sans";
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-display: swap;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-regular-400.eot);
+    src: url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-regular-400.woff2) format("woff2"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-regular-400.woff) format("woff"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-regular-400.ttf) format("truetype"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-solid-900.eot);
+    src: url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-solid-900.eot#iefix) format("embedded-opentype"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-solid-900.woff2) format("woff2"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-solid-900.woff) format("woff"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-solid-900.ttf) format("truetype"), url(https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-login-lite/css/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-regular-400.eot");
+    src: url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-regular-400.eot#iefix") format("embedded-opentype"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-regular-400.woff2") format("woff2"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-regular-400.woff") format("woff"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-regular-400.ttf") format("truetype"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-solid-900.eot");
+    src: url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-solid-900.eot#iefix") format("embedded-opentype"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-solid-900.woff2") format("woff2"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-solid-900.woff") format("woff"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-solid-900.ttf") format("truetype"), url("https://demo.joinwebs.com/classiera/strobe/wp-content/themes/classiera/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'), url('https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://demo.joinwebs.com/classiera/strobe/wp-content/plugins/accesspress-social-share/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w9aXpsog.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w2aXpsog.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aXpsog.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVIGxA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVIGxA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVIGxA.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVIGxA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVIGxA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVIGxA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVIGxA.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVIGxA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

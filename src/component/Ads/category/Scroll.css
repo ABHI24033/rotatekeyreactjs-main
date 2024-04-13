@@ -1,0 +1,26 @@
+.circleHover:hover{
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) !important;
+}
+
+.category_card{
+    width: 24rem;
+    height: 19rem;
+    /* background-color: red !important; */
+    margin: 1.5rem 0rem !important;
+    padding: 0.5rem !important;
+}
+.category_card img {
+    width: 23rem !important;
+    height: 15rem !important;
+}
+.slider{
+    height: 20rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.slider-container{
+    height: 30rem !important;
+    padding: 1rem 0rem ;
+    background-color: #f8f9fa !important;
+}

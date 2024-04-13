@@ -1,0 +1,89 @@
+/*! CSS Used from: https://mironmahmud.com/classicads/assets/ltr/css/vendor/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+h3,h5{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;}
+a:hover{color:#0056b3;text-decoration:underline;}
+h3,h5{margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h3{font-size:1.75rem;}
+h5{font-size:1.25rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-6{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+@media (min-width:992px){
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+h3,p{orphans:3;widows:3;}
+h3{page-break-after:avoid;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: https://mironmahmud.com/classicads/assets/ltr/css/custom/main.css */
+*{margin:0px;padding:0px;outline:0px;}
+a{text-decoration:none;display:inline-block;}
+a:hover{text-decoration:none;}
+ul{list-style:none;}
+h3,h5,p,ul,li{margin-bottom:0px;}
+h3,h5{color:var(--heading);}
+h3{font-size:24px;line-height:32px;font-weight:700;}
+h5{font-size:18px;line-height:26px;font-weight:500;}
+.account-card{margin-bottom:30px;padding:0px 30px 30px;background:var(--white);border-radius:8px;}
+.account-title{padding:18px 0px;margin-bottom:25px;position:relative;display:flex;align-items:center;justify-content:center;justify-content:space-between;border-bottom:1px solid var(--border);}
+.account-title::before{position:absolute;content:"";bottom:-2px;left:0px;width:50px;height:2px;background:var(--primary);}
+.account-title h3{font-size:20px;}
+.account-title a{border:none;width:55px;height:30px;font-size:14px;font-weight:500;line-height:30px;text-align:center;border-radius:5px;text-transform:capitalize;color:var(--primary);background:var(--chalk);transition:all linear .3s;-webkit-transition:all linear .3s;-moz-transition:all linear .3s;-ms-transition:all linear .3s;-o-transition:all linear .3s;}
+.account-title a:hover{color:var(--white);background:var(--primary);text-shadow:var(--primary-tshadow);}
+.account-card-list li{display:flex;align-items:center;justify-content:center;justify-content:space-between;padding-bottom:8px;margin-bottom:8px;border-bottom:1px solid var(--border);}
+.account-card-list li:last-child{padding-bottom:0px;margin-bottom:0px;border-bottom:none;}
+.account-card-list li h5{font-size:16px;font-weight:500;}
+@media (max-width: 575px){
+.account-card{padding:0px 20px 20px;}
+}
+/*! CSS Used from: https://mironmahmud.com/classicads/assets/ltr/css/custom/profile.css */
+.account-card{margin-bottom:30px;padding:0px 30px 30px;background:var(--white);border-radius:8px;}
+.account-title{padding:18px 0px;margin-bottom:25px;position:relative;display:flex;align-items:center;justify-content:center;justify-content:space-between;border-bottom:1px solid var(--border);}
+.account-title::before{position:absolute;content:"";bottom:-2px;left:0px;width:50px;height:2px;background:var(--primary);}
+.account-title h3{font-size:20px;}
+.account-title a{border:none;width:55px;height:30px;font-size:14px;font-weight:500;line-height:30px;text-align:center;border-radius:5px;text-transform:capitalize;color:var(--primary);background:var(--chalk);transition:all linear .3s;-webkit-transition:all linear .3s;-moz-transition:all linear .3s;-ms-transition:all linear .3s;-o-transition:all linear .3s;}
+.account-title a:hover{color:var(--white);background:var(--primary);text-shadow:var(--primary-tshadow);}
+.account-card-list li{display:flex;align-items:center;justify-content:center;justify-content:space-between;padding-bottom:8px;margin-bottom:8px;border-bottom:1px solid var(--border);}
+.account-card-list li:last-child{padding-bottom:0px;margin-bottom:0px;border-bottom:none;}
+.account-card-list li h5{font-size:16px;font-weight:500;}
+@media (max-width: 575px){
+.account-card{padding:0px 20px 20px;}
+}
+.profile-part{padding:50px 0px 70px;}
+@media (max-width: 767px){
+.profile-part{padding:50px 0px 30px;}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.profile-part{padding:50px 0px 50px;}
+}

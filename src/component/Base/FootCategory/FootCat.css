@@ -1,0 +1,49 @@
+/* support.jsx */ 
+
+.hover-on-Contact:hover{
+    background-color: white!important;
+    color:#0f3854
+}
+
+
+
+.footcat:hover{
+    color:white;
+    text-decoration: underline;
+    
+    text-underline-offset: 3px;
+    /* border-radius: 3px; */
+
+    /* padding: 0px 3px; */
+    /* border:1px solid white; */
+    border-color:white !important;
+    
+    
+
+}
+.footcat{
+    color:white;
+    font-size:14px;
+    font-family: "Poppins", sans-serif !important;
+
+}
+
+.FootcatBg{
+    background: linear-gradient(270deg,#0f3854,#2b224c);
+}
+
+.heading{
+    color:rgba(255, 255, 255, 0.873);
+    font-size:18px;
+    font-family: "Poppins", sans-serif !important;
+
+}
+.heading1{
+    color:rgba(255, 255, 255, 0.873);
+    font-size:16px;
+    font-family: "Poppins", sans-serif !important;
+
+}
+.heading:hover{
+    color:white;
+}

@@ -1,0 +1,1361 @@
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/plugins/bootstrap/css/bootstrap.min.css */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+h3,
+h4 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+
+@media (min-width:1200px) {
+    h3 {
+        font-size: 1.75rem;
+    }
+}
+
+h4 {
+    font-size: calc(1.275rem + .3vw);
+}
+
+@media (min-width:1200px) {
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+b {
+    font-weight: bolder;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0a58ca;
+}
+
+img {
+    vertical-align: middle;
+}
+
+input,
+select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+select {
+    text-transform: none;
+}
+
+select {
+    word-wrap: normal;
+}
+
+select:disabled {
+    opacity: 1;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:768px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width:1200px) {
+    .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .form-control {
+        transition: none;
+    }
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.form-control:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .form-select {
+        transition: none;
+    }
+}
+
+.form-select:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.form-select:disabled {
+    background-color: #e9ecef;
+}
+
+.form-select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #212529;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .btn {
+        transition: none;
+    }
+}
+
+.btn:hover {
+    color: #212529;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.btn:disabled {
+    pointer-events: none;
+    opacity: .65;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: 0 0 0 .25rem rgba(49, 132, 253, .5);
+}
+
+.btn-primary:active {
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a53be;
+}
+
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 .25rem rgba(49, 132, 253, .5);
+}
+
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.card-title {
+    margin-bottom: .5rem;
+}
+
+.card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.me-3 {
+    margin-right: 1rem !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.ms-5 {
+    margin-left: 3rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-success {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-dark {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+@media (min-width:1200px) {
+    .mb-xl-0 {
+        margin-bottom: 0 !important;
+    }
+}
+
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/css/style.css */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+[tabindex="-1"]:focus {
+    outline: 0 !important;
+}
+
+h3,
+h4 {
+    margin-top: 0;
+    margin-bottom: 0.66em;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+b {
+    font-weight: 600;
+}
+
+a {
+    color: #8492a6;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+input,
+select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input {
+    overflow: visible;
+}
+
+select {
+    text-transform: none;
+}
+
+h3,
+h4 {
+    margin-bottom: 0.3em;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: "Poppins", sans-serif;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media print {
+
+    *,
+    ::after,
+    ::before {
+        text-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    a:not(.btn) {
+        text-decoration: underline;
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h3 {
+        page-break-after: avoid;
+    }
+
+    .container {
+        min-width: 992px !important;
+    }
+}
+
+.brround {
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.84615385;
+    border-radius: 3px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:focus,
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(194, 197, 199, 0.25);
+}
+
+.btn:disabled {
+    opacity: 0.65;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .btn {
+        transition: none;
+    }
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 0.8125rem;
+    min-width: 2.375rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem;
+    position: relative;
+    height: 100%;
+}
+
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    border-radius: 4px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d8dde6;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 0 rgba(234, 238, 249, 0.5);
+}
+
+@media print {
+    .card {
+        box-shadow: none;
+        border: none;
+    }
+}
+
+.card-body> :last-child {
+    margin-bottom: 0;
+}
+
+@media print {
+    .card-body {
+        padding: 0;
+    }
+}
+
+.card-header {
+    background: 0 0;
+    padding: 0.5rem 1.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 3.5rem;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid #d8dde6;
+}
+
+.card-header .card-title {
+    margin-bottom: 0;
+}
+
+@media print {
+    .card-header {
+        display: none;
+    }
+}
+
+.card-title {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.card-title:only-child {
+    margin-bottom: 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: #080e1b;
+    height: 38px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8dde6;
+    border-radius: 3px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #6d7e9c;
+    opacity: 1;
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control:focus {
+    color: #6f6e6e;
+    background-color: #fff;
+    border-color: #d8dde6;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control::-webkit-input-placeholder,
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::-ms-input-placeholder {
+    color: #a7b4c9;
+    opacity: 1;
+}
+
+.form-control:disabled {
+    background-color: #f1f5fd;
+    opacity: 1;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .form-control {
+        transition: none;
+    }
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 2.425rem;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    display: block !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+a:active,
+a:focus,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+.col-md-12,
+.col-lg-12,
+.col-xl-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .col-xl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+@media print {
+    .container {
+        max-width: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .select2-container .select2-selection--single {
+        border-radius: 0;
+    }
+
+    .search-cars1 .select2-container .select2-selection--single {
+        border-radius: 3px !important;
+        border-left: 1px solid #d8dde6 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .select2-container .select2-selection--single {
+        border-radius: 3px !important;
+    }
+}
+
+.profile-pic-img {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.profile-pic-img span {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50px;
+    right: -1px;
+    top: 0.5rem;
+    border: 2px solid #fff;
+}
+
+.item1-links a {
+    padding: 0.75rem 1.25rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #080e1b;
+}
+
+.item1-links a.active {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.profile-pic {
+    text-align: center;
+}
+
+:focus {
+    outline: 0 !important;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.form-select {
+    display: inline-block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.5rem 1.75rem 0.5rem 0.75rem;
+    line-height: 1.5;
+    color: #a7b4c9;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 5'%3E%3Cpath fill='#999' d='M0 0L10 0L5 5L0 0'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+    background-size: 8px 10px;
+    border: 1px solid #d8dde6;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-select:focus {
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(25, 145, 235, 0.5);
+}
+
+.form-select:disabled {
+    color: #868e96;
+    background-color: #d8dde6;
+}
+
+.form-select::-ms-expand {
+    opacity: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #d8dde6 !important;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #080e1b !important;
+    line-height: 39px !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 2.375rem;
+    height: 100% !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100% !important;
+}
+
+.my-select .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100%;
+}
+
+.widget-spec li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    display: flex;
+}
+
+.widget-spec li i {
+    margin-right: 0.5rem;
+    margin-top: 3px;
+}
+
+.bg-success {
+    background-color: #05a01f !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #d8dde6 !important;
+}
+
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mt-3 {
+    margin-top: 0.75rem !important;
+}
+
+.me-3 {
+    margin-right: 0.75rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 1.5rem !important;
+}
+
+.ms-5 {
+    margin-left: 1.5rem !important;
+}
+
+@media (min-width: 1280px) {
+    .mb-xl-0 {
+        margin-bottom: 0 !important;
+    }
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.font-weight-semibold {
+    font-weight: 500 !important;
+}
+
+.text-success {
+    color: #05a01f !important;
+}
+
+.text-dark {
+    color: #162946 !important;
+}
+
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/css/icons.css */
+/*! @import https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/css/font-awesome.min.css */
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-check:before {
+    content: "\f00c";
+}
+
+/*! end @import */
+/*! @import https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/simple-line-icons/simple-line-icons.css */
+.icon-user,
+.icon-game-controller,
+.icon-folder-alt,
+.icon-diamond,
+.icon-basket,
+.icon-heart,
+.icon-power,
+.icon-settings,
+.icon-credit-card {
+    font-family: 'simple-line-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+    content: "\e005";
+}
+
+.icon-game-controller:before {
+    content: "\e01b";
+}
+
+.icon-folder-alt:before {
+    content: "\e039";
+}
+
+.icon-diamond:before {
+    content: "\e043";
+}
+
+.icon-basket:before {
+    content: "\e04e";
+}
+
+.icon-heart:before {
+    content: "\e08a";
+}
+
+.icon-power:before {
+    content: "\e097";
+}
+
+.icon-settings:before {
+    content: "\e09a";
+}
+
+.icon-credit-card:before {
+    content: "\e025";
+}
+
+/*! end @import */
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/plugins/select2/select2.min.css */
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.select2-hidden-accessible {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #8492a6 !important;
+    line-height: 28px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #b4bfd1 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/colorskins/color-skins/color13.css ; media=all */
+@media all {
+    a:hover {
+        color: #e72a1a;
+        text-decoration: none;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #e72a1a !important;
+        border-color: #e72a1a !important;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #da1b0b;
+        border-color: #da1b0b;
+    }
+
+    .btn-primary:focus {
+        box-shadow: 0 0 0 2px rgba(231, 42, 26, 0.5);
+    }
+
+    .btn-primary:disabled {
+        color: #fff;
+        background-color: #ea3728;
+        border-color: #ea3728;
+    }
+
+    a.text-dark:focus,
+    a.text-dark:hover {
+        color: #e72a1a !important;
+    }
+
+    .item1-links a:hover {
+        color: #e72a1a;
+    }
+
+    .item1-links a.active {
+        background: rgba(241, 238, 247, 0.6);
+        color: #e72a1a;
+        /* border-right: 2px solid #e72a1a; */
+    }
+}
+
+/*! CSS Used from: Embedded */
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'simple-line-icons';
+    src: url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/simple-line-icons/fonts/Simple-Line-Icons.eot?v=2.4.0');
+    src: url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/simple-line-icons/fonts/Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0') format('woff2'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/simple-line-icons/fonts/Simple-Line-Icons.ttf?v=2.4.0') format('truetype'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/simple-line-icons/fonts/Simple-Line-Icons.woff?v=2.4.0') format('woff'), url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/simple-line-icons/fonts/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.RedColor{
+    color:red;
+}
+.blackColor{
+    color:black;
+}

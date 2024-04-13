@@ -1,0 +1,97 @@
+/* for dropdown */
+/*! CSS Used from: Embedded */
+:where(.css-acm2ia)[class^="ant-select"] [class^="ant-select"],:where(.css-acm2ia)[class*=" ant-select"] [class^="ant-select"]{box-sizing:border-box;}
+:where(.css-acm2ia)[class^="ant-select"] [class^="ant-select"]::before,:where(.css-acm2ia)[class*=" ant-select"] [class^="ant-select"]::before,:where(.css-acm2ia)[class^="ant-select"] [class^="ant-select"]::after,:where(.css-acm2ia)[class*=" ant-select"] [class^="ant-select"]::after{box-sizing:border-box;}
+:where(.css-acm2ia).ant-select:not(:where(.css-acm2ia).ant-select-customize-input) .ant-select-selector input{cursor:pointer;}
+.ant-select-show-search:where(.css-acm2ia).ant-select:not(:where(.css-acm2ia).ant-select-customize-input) .ant-select-selector input{cursor:auto;color:inherit;}
+:where(.css-acm2ia).ant-select:not(:where(.css-acm2ia).ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input{margin:0;padding:0;background:transparent;border:none;outline:none;appearance:none;}
+:where(.css-acm2ia).ant-select-single .ant-select-selector .ant-select-selection-search-input{width:100%;}
+:where(.css-acm2ia).ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input{height:30px;}
+/*! CSS Used from: https://ant.design/ssr-1672049789321.css */
+:where(.css-acm2ia)[class^=ant-select] [class^=ant-select],:where(.css-acm2ia)[class*=" ant-select"] [class^=ant-select]{box-sizing:border-box;}
+:where(.css-acm2ia)[class^=ant-select] [class^=ant-select]::before,:where(.css-acm2ia)[class*=" ant-select"] [class^=ant-select]::before,:where(.css-acm2ia)[class^=ant-select] [class^=ant-select]::after,:where(.css-acm2ia)[class*=" ant-select"] [class^=ant-select]::after{box-sizing:border-box;}
+:where(.css-acm2ia).ant-select:not(:where(.css-acm2ia).ant-select-customize-input) .ant-select-selector input{cursor:pointer;}
+.ant-select-show-search:where(.css-acm2ia).ant-select:not(:where(.css-acm2ia).ant-select-customize-input) .ant-select-selector input{cursor:auto;color:inherit;}
+:where(.css-acm2ia).ant-select:not(:where(.css-acm2ia).ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input{margin:0;padding:0;background:0 0;border:none;outline:none;appearance:none;}
+:where(.css-acm2ia).ant-select-single .ant-select-selector .ant-select-selection-search-input{width:100%;}
+:where(.css-acm2ia).ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input{height:30px;}
+/*! CSS Used from: Embedded */
+input{margin:0;padding:0;}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-select1 .ant-select-selector {
+  height: 40px !important;
+  padding:5px 14px !important ;
+  border-radius: 6px;
+  /* z-index: 10; */
+}
+
+.custom-select1 .ant-select-selection-search-input{
+  position: relative;
+  top: 4px;
+  padding-left: 2px !important;
+}
+
+/*  subcategory fields placeholder color */
+.ant-select-selection-placeholder{
+  /* color:rgb(43, 40, 40) !important; */
+  /* font-weight: 500; */
+}
+.row-hover{
+  border-radius: 5px;
+}
+.row-hover:hover{
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) ;
+}
+/* .ant-select-show-search{
+  border: 1px solid red;
+} */
+.myinput{
+    width: 100%;
+    border-radius: 1px;
+
+}
+.myinput:hover{
+  /* #0c7ee2 */
+border: 1px solid  #0d6efd !important;
+/* background: #000; */
+}
+.spinner{
+   
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+       };
+
+
+       .example {
+        margin: 20px 0;
+        margin-bottom: 20px;
+        padding: 30px 50px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+      }
+.cont:hover{
+  width: 100px;
+  height: 100px;
+}
+.text-center{
+  border:none;
+  background-color: #f3f1f214;
+}
+
+.headline {
+    text-align: 'center',
+}

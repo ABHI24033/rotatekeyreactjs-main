@@ -1,0 +1,89 @@
+.tab-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+ /* //order csss */
+ .container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px 10px 30px;
+}
+
+.table1 {
+  border-collapse: collapse;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.table1 th,
+.table1 td {
+  text-align: left;
+  padding: 10px;
+}
+
+.table1 th {
+  background-color: #f2f2f2;
+}
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table1-body{
+  height: 10px; /* set a fixed height */
+  overflow: scroll; /* add scroll to overflow */
+}
+
+@media only screen and (max-width: 500px) {
+  .table1 th,
+  .table1 td {
+    text-align: center;
+  }
+  .container1{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px 10px 30px;
+  }
+  .table1{
+  border-collapse: collapse;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 8px;
+  }
+  .table1-container {
+    overflow-x: scroll;
+  }
+  
+  .table1-body {
+    max-height: none;
+    overflow: visible;
+  }
+}

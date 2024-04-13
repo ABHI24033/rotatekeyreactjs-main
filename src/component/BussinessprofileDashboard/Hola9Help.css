@@ -1,0 +1,14 @@
+
+.contact-option{
+    background: rgb(68, 150, 245);
+    border: 1.5px solid transparent;
+    border-radius: 2rem;
+}
+h6{
+    color: white;
+   
+}
+.contact__option-icon{
+    font-size: "20px";
+    margin-left: '10px';
+}

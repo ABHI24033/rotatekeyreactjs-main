@@ -1,0 +1,31 @@
+/* input[type=text]{
+    border:1px solid white;
+} */
+
+/* .MuiFormControl-fullWidth{
+    width:300px;
+} */
+.MuiAutocomplete-inputRoot[class*="MuiInput-root"] {
+    padding-bottom: 1px;
+    border:1px solid #d7cdcd1c;
+}
+
+input[type=text] {
+    border: 1px solid #d7cdcd1c !important;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #757575;
+    font-style: italic;
+    border-radius: 0;
+   
+}
+
+.MuiAutocomplete-endAdornment {
+    top: calc(50% - 14px);
+    right: 30px !important;
+    position: relative;
+}
+
+.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot{
+    padding-right: 0px;
+}

@@ -1,0 +1,145 @@
+/* premiumcard css */
+.plan-card {
+    background-color: rgb(213, 250, 250);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 300px;
+    border-top: solid #009624;
+    transition: all 500ms ease;
+    margin-bottom: 1cm;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+  
+  .plan-name {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .facilities {
+    margin-bottom: 16px;
+  }
+  
+  .facilities ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .facilities li {
+    margin-bottom: 8px;
+  }
+  
+  .buy-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buy-button button {
+    background-color: #00c853;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .plan-card:hover {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(221, 55, 55, 0.2);
+    
+    width: 310px;
+    border-top: solid #b91212;
+    
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+  .plan-card:hover .buy-button button{
+    background-color:  #b91212;
+  }
+
+  /* featurecard css */
+  .plan-card1 {
+    background-color: rgb(213, 250, 250);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 300px;
+    border-top: solid #009624;
+    transition: all 500ms ease;
+    margin-bottom: 1cm;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+  
+  .plan-name1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .facilities1 {
+    margin-bottom: 16px;
+  }
+  
+  .facilities1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .facilities1 li {
+    margin-bottom: 8px;
+  }
+  
+  .buy-button1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buy-button1 button {
+    background-color: #00c853;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .plan-card1:hover {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(221, 55, 55, 0.2);
+    
+    width: 310px;
+    border-top: solid #b91212;
+    
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+  .plan-card1:hover .buy-button1 button{
+    background-color:  #b91212;
+  }

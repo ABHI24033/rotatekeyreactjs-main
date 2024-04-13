@@ -1,0 +1,173 @@
+
+/*! CSS Used from: https://hola9.com/static/mainClassified/libs/line-awesome/css/line-awesome.min.css */
+.footerFont{
+    font-family: "Poppins", sans-serif !important;
+}
+
+
+.la{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.la-facebook-f:before{content:"\f39e";}
+.la-instagram:before{content:"\f16d";}
+.la-twitter:before{content:"\f099";}
+.la{font-family:'Line Awesome Free';font-weight:900;}
+.la.la-twitter{font-family:'Line Awesome Brands';font-weight:400;}
+.la.la-facebook-f{font-family:'Line Awesome Brands';font-weight:400;}
+.la.la-facebook-f:before{content:"\f39e";}
+.la.la-instagram{font-family:'Line Awesome Brands';font-weight:400;}
+/*! CSS Used from: https://hola9.com/static/mainClassified/libs/bootstrap/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+h3{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2; color: blue;}
+h3{font-size:calc(1.3rem + .6vw);}
+@media (min-width:1200px){
+h3{font-size:1.75rem;}
+}
+p{margin-top:0;margin-bottom:1rem;}
+ul{padding-left:2rem;}
+ul{margin-top:0;margin-bottom:1rem;}
+b{font-weight:bolder;}
+a{color:#0d6efd;text-decoration:underline;}
+a:hover{color:#0a58ca;}
+a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none;}
+img{vertical-align:middle;}
+::-moz-focus-inner{padding:0;border-style:none;}
+.container{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:1400px){
+.container{max-width:1320px;}
+}
+.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(var(--bs-gutter-y) * -1);margin-right:calc(var(--bs-gutter-x)/ -2);margin-left:calc(var(--bs-gutter-x)/ -2);}
+.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x)/ 2);padding-left:calc(var(--bs-gutter-x)/ 2);margin-top:var(--bs-gutter-y);}
+@media (min-width:992px){
+.col-lg-2{flex:0 0 auto;width:16.6666666667%;}
+.col-lg-3{flex:0 0 auto;width:25%;}
+.col-lg-5{flex:0 0 auto;width:41.6666666667%;}
+}
+.dropdown{position:relative;}
+.bg-light{background-color:#f8f9fa!important;}
+/*! CSS Used from: https://hola9.com/static/mainClassified/css/style.css */
+div{border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;}
+h3{border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;clear:both;color:#2d2d2d;font-family:"Jost";font-weight:700;font-size:18px;}
+p{border:0;font-size:100%;margin:0;outline:0;padding:0;line-height:1.44;vertical-align:baseline;}
+a{border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;color:#2d2d2d;text-decoration:none;transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-o-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s;-ms-transition:all 0.3s ease-in-out 0s;}
+a:hover{color:#23d3d3;text-decoration:none;}
+a:focus{text-decoration:none;color:inherit;outline:none;}
+ul{border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;}
+li{border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;}
+img{border:none;max-width:100%;height:auto;}
+.footer{background-color:#ffffff;}
+.footer .footer__top__info .footer__top__info__logo img{margin-bottom:40px;}
+.footer .footer__top__info .footer__top__info__desc{margin-bottom:10px;    font-family: "Poppins", sans-serif !important;
+}
+.footer{border-top:1px solid #eeeeeee3;}
+/* .footer__bottom{border-top:1px solid #eeeeee;padding:32px 0;} */
+.footer__top{padding:60px 0;}
+.footer__top__info .footer__top__info__logo img{max-width:96px;margin-bottom:20px;}
+.footer__top__info .footer__top__info__desc{font-size:16px;line-height:1.44;color:#5d5d5d;margin-bottom:25px;}
+.footer__top__info .footer__top__info__app a{display:inline-block;margin-right:8px;}
+.footer__top__info .footer__top__info__app img{max-width:134px;}
+.footer__top__nav h3{font-size:16px;font-weight:500;}
+.footer__top__nav li{list-style:none;}
+.footer__top__nav li:last-child{margin-bottom:0;}
+.footer__top__nav li a{color:#5d5d5d;line-height:1.53;font-weight:500;font-family:"Jost";}
+.footer__top__nav li a:hover{color:#23d3d3;}
+.footer__top__nav li i{font-size:18px;line-height:36px;}
+.footer__top__nav--contact p{font-weight:500;font-family:"Jost";line-height:1.53;color:#5d5d5d;margin-bottom:10px;}
+.footer__top__nav--contact ul{margin-top:30px;}
+.footer__top__nav--contact li{display:inline-block;margin-right:5px;}
+.footer__top__nav--contact li:last-child{margin-right:0;}
+/* .footer__top__nav--contact li a{display:block;width:36px;height:36px;text-align:center;line-height:36px;border-radius:5px;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);color:#ffffff;} */
+.footer__top__nav--contact li a:hover{color:#ffffff;opacity:0.7;}
+.footer__top__nav--contact li.facebook a{color:#3b5998;}
+.footer__top__nav--contact li.twitter a{color:#1da1f2;}
+.footer__top__nav--contact li.instagram a{color:#262626;}
+.footer__bottom__copyright{text-align:center;font-size:14px;color:#5d5d5d;}
+/*! CSS Used from: https://hola9.com/static/mainClassified/css/responsive.css */
+@media only screen and (min-width: 1200px){
+.container{max-width:1200px;}
+}
+@media only screen and (max-width: 992px){
+.container{padding-left:25px;padding-right:25px;}
+.footer__top__info,.footer__top__nav{margin-bottom:40px;}
+.footer__top__nav--contact{margin-bottom:0;}
+.footer__top__nav--contact li{margin-bottom:0;}
+.footer__top{padding:60px 0 40px;}
+}
+@media only screen and (max-width: 375px){
+.footer__top__info .footer__top__info__app a,.footer__top__info{margin-bottom:20px;}
+}
+/*! CSS Used from: https://hola9.com/static/21shop/css/bootstrap.min.css */
+aside,footer{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+b{font-weight:700;}
+img{border:0;}
+@media print{
+*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+a[href^="#"]:after{content:"";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+h3,p{orphans:3;widows:3;}
+h3{page-break-after:avoid;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+a{color:#337ab7;text-decoration:none;}
+a:focus,a:hover{color:#23527c;text-decoration:underline;}
+a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+img{vertical-align:middle;}
+h3{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
+h3{margin-top:20px;margin-bottom:10px;}
+h3{font-size:24px;}
+p{margin:0 0 10px;}
+ul{margin-top:0;margin-bottom:10px;}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:768px){
+.container{width:750px;}
+}
+@media (min-width:992px){
+.container{width:970px;}
+}
+@media (min-width:1200px){
+.container{width:1170px;}
+}
+.row{margin-right:-15px;margin-left:-15px;}
+.col-lg-2,.col-lg-3,.col-lg-5{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:1200px){
+.col-lg-2,.col-lg-3,.col-lg-5{float:left;}
+.col-lg-5{width:41.66666667%;}
+.col-lg-3{width:25%;}
+.col-lg-2{width:16.66666667%;}
+}
+.dropdown{position:relative;}
+.container:after,.container:before,.row:after,.row:before{display:table;content:" ";}
+.container:after,.row:after{clear:both;}
+/*! CSS Used from: https://hola9.com/static/21shop/css/style.css */
+h3{color:#2B2D42;font-weight:700;margin:0 0 10px;}
+a{color:#2B2D42;font-weight:500;-webkit-transition:0.2s color;transition:0.2s color;}
+a:hover,a:focus{color:#D10024;text-decoration:none;outline:none;}
+ul{margin:0;padding:0;list-style:none;}
+#footer{background:#FAF9F6;color:#B9BABC;}
+/* .footer{margin:30px 0px;} */
+/*! CSS Used from: Embedded */
+p{margin:10px;}
+.dropdown{position:relative;display:inline-block;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Line Awesome Free';font-style:normal;font-weight:400;font-display:auto;src:url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-regular-400.eot);src:url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-regular-400.eot#iefix) format("embedded-opentype"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-regular-400.woff2) format("woff2"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-regular-400.woff) format("woff"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-regular-400.ttf) format("truetype"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-regular-400.svg#lineawesome) format("svg");}
+@font-face{font-family:'Line Awesome Free';font-style:normal;font-weight:900;font-display:auto;src:url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-solid-900.eot);src:url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-solid-900.eot#iefix) format("embedded-opentype"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-solid-900.woff2) format("woff2"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-solid-900.woff) format("woff"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-solid-900.ttf) format("truetype"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-solid-900.svg#lineawesome) format("svg");}
+@font-face{font-family:'Line Awesome Brands';font-style:normal;font-weight:400;font-display:auto;src:url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-brands-400.eot);src:url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-brands-400.eot#iefix) format("embedded-opentype"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-brands-400.woff2) format("woff2"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-brands-400.woff) format("woff"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-brands-400.ttf) format("truetype"),url(https://hola9.com/static/mainClassified/libs/line-awesome/fonts/la-brands-400.svg#lineawesome) format("svg");}
+@font-face{font-family:'Jost';src:url('https://hola9.com/static/mainClassified/fonts/jost/Jost-Light.woff2') format('woff2'),         url('https://hola9.com/static/mainClassified/fonts/jost/Jost-Light.woff') format('woff');font-weight:300;font-style:normal;}
+@font-face{font-family:'Jost';src:url('https://hola9.com/static/mainClassified/fonts/jost/Jost-Bold.woff2') format('woff2'),         url('https://hola9.com/static/mainClassified/fonts/jost/Jost-Bold.woff') format('woff');font-weight:700;font-style:normal;}
+@font-face{font-family:'Jost';src:url('https://hola9.com/static/mainClassified/fonts/jost/Jost-Medium.woff2') format('woff2'),         url('https://hola9.com/static/mainClassified/fonts/jost/Jost-Medium.woff') format('woff');font-weight:500;font-style:normal;}

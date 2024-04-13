@@ -1,0 +1,40 @@
+.banner {
+  background-image: url(https://newsimg.giznext.com/mobile/production/news/wp-content/uploads/2022/07/25111531/mediatek-735x400.png);
+  width: 1300px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 650px) {
+  .banner {
+    background-image: url(https://newsimg.giznext.com/mobile/production/news/wp-content/uploads/2022/07/25111531/mediatek-735x400.png);
+    width: 1300px;
+    height: 400px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+}
+
+.custom-btn-1 {
+  width: 220px;
+  height: 40px;
+  background: white;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 0px 15px 15px 15px;
+}
+.custom-btn-1:hover {
+  background: darkcyan;
+  color: white;
+  /* padding:5px 20px; */
+}
+
+.p-text {
+  margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+  .p-text {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,49 @@
+.business-profile-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  max-height: auto;
+  margin: 0 auto;
+  background: whitesmoke;
+  padding: 15px 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.business-profile-form label {
+  display: block;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.business-profile-form input[type="text"],
+.business-profile-form input[type="tel"],
+.business-profile-form input[type="email"],
+.business-profile-form input[type="file"] {
+  display: block;
+  width: 400px;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.business-profile-form button[type="submit"] {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* .business-profile-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+} */

@@ -1,0 +1,213 @@
+.textlink{
+    color:#6c757d;
+    list-style-type: none;
+}
+.featurecls:hover{
+    transform: scale(1.03);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+.featureFont{
+    font-family: "Poppins", sans-serif !important;
+
+}
+.btn-sm{
+    color: rgb(6, 14, 131);
+    border-color: rgb(6 14 131 / 35%);
+    border:1px solid rgb(6 14 131 / 35%);
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 6px 10px;
+    font-family: "Poppins", sans-serif !important;
+    height:35px;
+}
+.btn-sm:hover{
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) !important;
+}
+
+.slick-prev:before, .slick-next:before{
+  font-size: 20px !important;
+  color: rgb(23, 12, 117) !important;
+  
+}
+.slick-prev {
+  margin-left:-20px !important;
+  left: 0% !important;
+    z-index: 1;
+  }
+ 
+  .slick-next {
+    margin-right:-20px !important;
+
+    right: 0% !important;
+    z-index: 1;
+  }
+  
+
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/plugins/bootstrap/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+hr{margin:1rem 0;color:inherit;background-color:currentColor;border:0;opacity:.25;}
+hr:not([size]){height:1px;}
+.h6,h4,h6{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h4{font-size:calc(1.275rem + .3vw);}
+@media (min-width:1200px){
+h4{font-size:1.5rem;}
+}
+.h6,h6{font-size:1rem;}
+a{color:#0d6efd;text-decoration:underline;}
+a:hover{color:#0a58ca;}
+img{vertical-align:middle;}
+::-moz-focus-inner{padding:0;border-style:none;}
+.container{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:1400px){
+.container{max-width:1320px;}
+}
+.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x));}
+.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y);}
+@media (min-width:768px){
+.col-md-12{flex:0 0 auto;width:100%;}
+}
+@media (min-width:992px){
+.col-lg-4{flex:0 0 auto;width:33.33333333%;}
+}
+.d-inline-block{display:inline-block!important;}
+.d-flex{display:flex!important;}
+.border{border:1px solid #dee2e6!important;}
+.border-top{border-top:1px solid #dee2e6!important;}
+.mx-auto{margin-right:auto!important;margin-left:auto!important;}
+.mt-0{margin-top:0!important;}
+.mt-1{margin-top:.25rem!important;}
+.me-4{margin-right:1.5rem!important;}
+.mb-0{margin-bottom:0!important;}
+.mb-1{margin-bottom:.25rem!important;}
+.mb-4{margin-bottom:1.5rem!important;}
+.mb-5{margin-bottom:3rem!important;}
+.p-4{padding:1.5rem!important;}
+.text-body{--bs-text-opacity:1;color:rgba(var(--bs-body-color-rgb),var(--bs-text-opacity))!important;    font-family: "Poppins", sans-serif !important;
+}
+.text-muted{--bs-text-opacity:1;color:#6c757d!important;}
+.bg-white{--bs-bg-opacity:1;background-color:rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;}
+@media (min-width:992px){
+.mb-lg-0{margin-bottom:0!important;}
+}
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/css/style.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+hr{box-sizing:content-box;height:0!important;overflow:visible;margin-top:2rem;margin-bottom:2rem;border:0;border-top:1px solid #acb3c9;}
+h4,h6{margin-top:0;margin-bottom:0.66em;}
+a{color:#8492a6;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+img{vertical-align:middle;border-style:none;}
+.h6,h4,h6{margin-bottom:0.3em;font-weight:500;line-height:1.1;font-family:"Poppins", sans-serif;}
+h4{font-size:1.125rem;font-family:"Poppins", sans-serif;}
+.h6,h6{font-size:0.875rem;font-family:"Poppins", sans-serif;}
+.fs-12{font-size:12px!important;}
+.fs-16{font-size:16px!important;}
+.fs-18{font-size:18px!important;}
+.container{width:100%;padding-right:0.75rem;padding-left:0.75rem;margin-right:auto;margin-left:auto;}
+@media (min-width: 576px){
+.container{max-width:540px;}
+}
+@media (min-width: 768px){
+.container{max-width:720px;}
+}
+@media (min-width: 992px){
+.container{max-width:960px;}
+}
+@media (min-width: 1280px){
+.container{max-width:1200px;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+.container{min-width:992px!important;}
+}
+.media-body{flex:1;-ms-flex:1;}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-0.75rem;margin-left:-0.75rem;}
+a:active,a:focus,a:hover{outline:0;text-decoration:none;}
+.col-md-12,.col-lg-4{position:relative;width:100%;min-height:1px;padding-right:0.75rem;padding-left:0.75rem;}
+@media (min-width: 768px){
+.col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width: 992px){
+.col-lg-4{-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%;}
+}
+img{max-width:100%;}
+@media print{
+.container{max-width:none;}
+}
+.accent-2{width:60px;}
+.sptb2{padding-top:3rem;padding-bottom:3rem;}
+:focus{outline:0!important;}
+.box-shadow2{box-shadow:0 1px 2px rgba(234, 238, 249, 0.9);-webkit-transition:all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);transition:all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);}
+.box-shadow2:hover{box-shadow:0 5px 15px rgba(16, 49, 85, 0.2);}
+.media-body{zoom:1;overflow:hidden;}
+.media-body{display:table-cell;vertical-align:top;}
+.media-body h4{font-weight:500;font-size:14px;}
+.media-body{display:list-item;vertical-align:top;}
+.bg-white{background-color:#fff!important;}
+.border{vertical-align:top;border:1px solid #d8dde6!important;}
+.border-top{border-top:1px solid #d8dde6!important;}
+.br-3{border-radius:3px;}
+.d-inline-block{display:inline-block!important;}
+.d-flex{display:-ms-flexbox!important;display:flex!important;}
+.h-8{height:4rem!important;}
+.mt-0{margin-top:0!important;}
+.mb-0{margin-bottom:0!important;}
+.mt-1{margin-top:0.25rem!important;}
+.mb-1{margin-bottom:0.25rem!important;}
+.me-4{margin-right:1rem;}
+.mb-4{margin-bottom:1rem!important;}
+.mb-5{margin-bottom:1.5rem!important;}
+.mx-auto{margin-right:auto!important;}
+.mx-auto{margin-left:auto!important;}
+@media (min-width: 992px){
+.mb-lg-0{margin-bottom:0!important;}
+}
+.p-4{padding:1rem!important;}
+.font-weight-normal{font-weight:400!important;}
+.font-weight-semibold{font-weight:500!important;}
+.text-body{color:#3d4e67!important;}
+.text-muted{color:#6d7e9c!important;}
+.w-8{width:4rem!important;}
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/css/icons.css */
+/*! @import https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/css/font-awesome.min.css */
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-calendar:before{content:"\f073";}
+/*! end @import */
+/*! CSS Used from: https://www.spruko.com/demo/autolist/Autolist/assets/colorskins/color-skins/color13.css ; media=all */
+@media all{
+a:hover{color:#e72a1a;text-decoration:none;}
+.accent-2{border-top:1px solid #e72a1a;}
+}
+/*! CSS Used from: Embedded */
+*{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:-moz-none;-ms-user-select:none;user-select:none;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'FontAwesome';src:url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');src:url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'),url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://www.spruko.com/demo/autolist/Autolist/assets/iconfonts/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}

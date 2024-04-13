@@ -1,0 +1,807 @@
+/*! CSS Used from: https://templates.hibootstrap.com/fela/default/assets/css/bootstrap.min.css */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+/* Review1.js Csss */
+
+.testimonial_card{
+    /* background-color: red !important; */
+    width: 30% !important;
+    /* border-radius: 10px !important; */
+    /* padding: 0% !important; */
+    /* margin: 0% !important; */
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* ============== */
+
+h2,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+.ReviewBt{
+    border:2px solid #2b224c;
+    width:49%;
+    height:30px;
+    border-radius: 20px;
+    padding:2px;
+    color:#2b224c;
+}
+.ReviewBt:hover{
+    background-color: #2b224c;
+    color:white;
+}
+
+@media (min-width:1200px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img {
+    vertical-align: middle;
+}
+
+button {
+    border-radius: 0;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+button {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    text-transform: none;
+}
+
+[type=button],
+button {
+    -webkit-appearance: button;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+
+.container,
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:992px) {
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .offset-lg-2 {
+        margin-left: 16.66666667%;
+    }
+}
+
+@media (min-width:1200px) {
+    .col-xl-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .offset-xl-3 {
+        margin-left: 25%;
+    }
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/*! CSS Used from: https://templates.hibootstrap.com/fela/default/assets/css/flaticon.css */
+i[class^=flaticon-]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-star:before {
+    content: "\f142";
+}
+
+.flaticon-back:before {
+    content: "\f161";
+}
+
+.flaticon-next-1:before {
+    content: "\f162";
+}
+
+/*! CSS Used from: https://templates.hibootstrap.com/fela/default/assets/css/owl.carousel.min.css */
+.owl-carousel,
+.owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+}
+
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+.owl-carousel .owl-dots.disabled {
+    display: none;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-height {
+    transition: height .5s ease-in-out;
+}
+
+/*! CSS Used from: https://templates.hibootstrap.com/fela/default/assets/css/style.css */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+button:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    color: #000;
+    font-family: poppins, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* .ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+} */
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.testimonial-card.style2 .client-info-wrap,
+.owl-carousel .owl-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.testimonial-card.style2 .client-info-wrap {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.owl-carousel .owl-nav button.owl-prev i,
+.owl-carousel .owl-nav button.owl-next i {
+    font-size: 18px;
+    line-height: .8;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    color: #666;
+    margin: 0 auto;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: #ec3323;
+    border-color: transparent;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover i,
+.owl-carousel .owl-nav button.owl-next:hover i {
+    color: #fff;
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section-title p {
+    margin: 12px 0 0;
+}
+
+.bg-seashell {
+    background-color: #f9f9f9;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.testimonial-card.style2 .client-info-wrap,
+.owl-carousel .owl-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.testimonial-card.style2 .client-info-wrap {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+}
+
+.testimonial-wrap {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.testimonial-card .client-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 35px;
+}
+
+.testimonial-card .client-img img {
+    border-radius: 50%;
+}
+
+.testimonial-card.style2 h6 {
+    line-height: 1.5;
+}
+
+.testimonial-card.style2 .client-info-wrap .client-img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.testimonial-card.style2 .client-info-wrap .client-img img {
+    border-radius: 50%;
+}
+
+.testimonial-card.style2 .client-info-wrap .client-info {
+    width: calc(100% - 130px);
+    margin-left: 15px;
+}
+
+.testimonial-card.style2 .client-info-wrap .client-info h5 {
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.testimonial-card.style2 .client-info-wrap .client-info span {
+    font-size: 14px;
+}
+
+.testimonial-card.style2 .client-info-wrap .ratings {
+    width: 53px;
+    text-align: right;
+}
+
+.testimonial-card.style2 .client-info-wrap .ratings i {
+    color: #ffc422;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.testimonial-card.style2 {
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .09);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .09);
+    padding: 25px;
+    background-color: #fff;
+}
+
+.testimonial-card.style2 h6 {
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.testimonial-card.style2 .client-quote {
+    margin: 0 0 15px;
+    font-family: "Poppins", sans-serif !important;
+
+}
+
+.testimonial-slider-two {
+    margin: -10px;
+}
+
+.testimonial-slider-two .testimonial-card {
+    margin: 10px;
+}
+
+.testimonial-slider-two.owl-carousel .owl-nav {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 25px 0 0 -100px;
+}
+
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-prev,
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-next {
+    width: 50px;
+    height: 50px;
+    margin: 0 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+}
+
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: #ec3323;
+}
+
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-prev:hover i,
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-next:hover i {
+    color: #fff;
+}
+
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-prev i,
+.testimonial-slider-two.owl-carousel .owl-nav button.owl-next i {
+    color: #002172;
+    font-size: 22px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.testimonial-card.style2 .client-info-wrap,
+.owl-carousel .owl-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.testimonial-card.style2 .client-info-wrap {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+}
+
+/*! CSS Used from: https://templates.hibootstrap.com/fela/default/assets/css/responsive.css */
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .container-fluid {
+        max-width: 540px;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    p {
+        font-size: 14px;
+    }
+
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .mb-40 {
+        margin-bottom: 25px !important;
+    }
+
+    .section-title.mb-40 {
+        margin-bottom: 20px !important;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        width: 40px;
+        height: 40px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 14px;
+    }
+
+    .testimonial-slider-two {
+        margin: -10px 0;
+    }
+
+    .testimonial-slider-two .testimonial-card {
+        margin: 10px 0;
+    }
+
+    .testimonial-card {
+        padding: 20px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-info {
+        width: calc(100% - 108px);
+        margin-left: 15px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-info h5 {
+        font-size: 15px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-info span {
+        font-size: 14px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .ratings {
+        width: 45px;
+        font-size: 14px;
+    }
+
+    .testimonial-slider-two.owl-carousel .owl-nav {
+        margin: 15px 0 0 0;
+    }
+
+    .testimonial-card .client-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .container-fluid {
+        max-width: 720px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-info {
+        width: calc(100% - 115px);
+        margin-left: 15px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-info h5 {
+        font-size: 18px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .client-info span {
+        font-size: 14px;
+    }
+
+    .testimonial-card.style2 .client-info-wrap .ratings {
+        width: 52px;
+    }
+
+    .testimonial-slider-two.owl-carousel .owl-nav {
+        margin: 25px 0 0 0;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .testimonial-slider-two.owl-carousel .owl-nav {
+        margin: 25px 0 0 -5px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .testimonial-slider-two.owl-carousel .owl-nav {
+        margin: 25px 0 0 -50px;
+    }
+
+    .testimonial-wrap.style2 .container-fluid {
+        padding-left: calc((100% - 1520px)/2 + 15px);
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width:1400px) and (max-width:1599px) {
+    .testimonial-wrap.style2 .container-fluid {
+        padding-left: calc((100% - 1520px)/2 + 15px);
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    .section-title h2 {
+        font-size: 48px;
+    }
+
+    .testimonial-slider-two.owl-carousel .owl-nav {
+        margin: 25px 0 0 -157px;
+    }
+
+    .testimonial-wrap.style2 .container-fluid {
+        padding-left: calc((100% - 1520px)/2 + 15px);
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .testimonial-slider-two.owl-carousel .owl-nav {
+        margin: 25px 0 0 -170px;
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: flaticon;
+    src: url(https://templates.hibootstrap.com/fela/default/assets/fonts/flaticon.ttf?ff35a818e27d2ea60a2ebd2fe31a2872) format("truetype"), url(https://templates.hibootstrap.com/fela/default/assets/fonts/flaticon.woff?ff35a818e27d2ea60a2ebd2fe31a2872) format("woff"), url(https://templates.hibootstrap.com/fela/default/assets/fonts/flaticon.woff2?ff35a818e27d2ea60a2ebd2fe31a2872) format("woff2"), url(https://templates.hibootstrap.com/fela/default/assets/fonts/flaticon.eot?ff35a818e27d2ea60a2ebd2fe31a2872#iefix) format("embedded-opentype"), url(https://templates.hibootstrap.com/fela/default/assets/fonts/flaticon.svg?ff35a818e27d2ea60a2ebd2fe31a2872#flaticon) format("svg");
+}

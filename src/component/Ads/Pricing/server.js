@@ -1,0 +1,1 @@
+export const server = "http://139.59.26.221:8000/api/payment";

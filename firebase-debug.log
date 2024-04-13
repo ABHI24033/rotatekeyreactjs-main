@@ -1,0 +1,35 @@
+[debug] [2024-04-05T06:25:47.016Z] ----------------------------------------------------------------------
+[debug] [2024-04-05T06:25:47.020Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gravi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-04-05T06:25:47.021Z] CLI Version:   12.5.2
+[debug] [2024-04-05T06:25:47.021Z] Platform:      win32
+[debug] [2024-04-05T06:25:47.022Z] Node Version:  v20.10.0
+[debug] [2024-04-05T06:25:47.022Z] Time:          Fri Apr 05 2024 11:55:47 GMT+0530 (India Standard Time)
+[debug] [2024-04-05T06:25:47.022Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-05T06:25:47.619Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-05T06:25:47.621Z] > authorizing via signed-in user (gravitonweb@gmail.com)
+[debug] [2024-04-05T06:25:47.622Z] [iam] checking project hola9-e8361 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-04-05T06:25:47.628Z] > refreshing access token with scopes: []
+[debug] [2024-04-05T06:25:47.634Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-05T06:25:47.635Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-05T06:25:47.997Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-05T06:25:47.998Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-05T06:25:48.016Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hola9-e8361:testIamPermissions [none]
+[debug] [2024-04-05T06:25:48.016Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/hola9-e8361:testIamPermissions x-goog-quota-user=projects/hola9-e8361
+[debug] [2024-04-05T06:25:48.017Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hola9-e8361:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-05T06:25:49.696Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/hola9-e8361:testIamPermissions 200
+[debug] [2024-04-05T06:25:49.697Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hola9-e8361:testIamPermissions {}
+[debug] [2024-04-05T06:25:49.697Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project hola9-e8361:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-04-05T06:25:49.699Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hola9-e8361 [none]
+[debug] [2024-04-05T06:25:50.204Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hola9-e8361 403
+[debug] [2024-04-05T06:25:50.204Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hola9-e8361 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-05T06:25:50.206Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-05T06:25:50.406Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\gravi\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\gravi\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hola9-e8361. Please make sure the project exists and your account has permission to access it.

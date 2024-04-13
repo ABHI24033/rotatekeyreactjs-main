@@ -1,0 +1,415 @@
+/*! CSS Used from: https://demo.joinwebs.com/classiera/plum/wp-content/themes/classiera/css/bootstrap.css?ver=1 ; media=all */
+@media all {
+    section {
+        display: block;
+    }
+
+    a {
+        background-color: transparent;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+    img {
+        border: 0;
+    }
+
+    @media print {
+
+        *,
+        *:before,
+        *:after {
+            color: #000 !important;
+            text-shadow: none !important;
+            background: transparent !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+            text-decoration: underline;
+        }
+
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
+
+        img {
+            page-break-inside: avoid;
+        }
+
+        img {
+            max-width: 100% !important;
+        }
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    *:before,
+    *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    a {
+        color: #337ab7;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+        color: #23527c;
+        text-decoration: underline;
+    }
+
+    a:focus {
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    h5 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+
+    h5 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .col-lg-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    @media (min-width: 1200px) {
+        .col-lg-12 {
+            float: left;
+        }
+
+        .col-lg-12 {
+            width: 100%;
+        }
+    }
+
+    .container:before,
+    .container:after,
+    .row:before,
+    .row:after {
+        display: table;
+        content: " ";
+    }
+
+    .container:after,
+    .row:after {
+        clear: both;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/plum/wp-content/themes/classiera/css/classiera-components.css?ver=1 ; media=all */
+@media all {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media screen and (min-width: 1199px) {
+        .container {
+            width: 1200px;
+        }
+    }
+
+    h5 {
+        font-family: 'Ubuntu', sans-serif;
+        color: #232323;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    .section-pad {
+        padding: 50px 0;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/plum/wp-content/themes/classiera/css/classiera.css?ver=1 ; media=all */
+@media all {
+    .classiera-category-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .classiera-category-new-v2-box {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        text-align: center;
+        padding: 0 20px;
+        height: 132px;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .classiera-category-new-v2-box:hover {
+        background: #d32323;
+    }
+
+    .classiera-category-new-v2-box:hover .classiera-category-new-v2-box-img {
+        background: #fff;
+    }
+
+    .classiera-category-new-v2-box:hover .classiera-category-new-v2-box-title {
+        color: #fff;
+    }
+
+    .classiera-category-new-v2-box-img {
+        width: 60px;
+        height: 60px;
+        background: #f1f3f4;
+        border-radius: 1000px;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+    }
+
+    .classiera-category-new-v2-box-img img {
+        max-width: 32px;
+        height: auto;
+    }
+
+    .classiera-category-new-v2-box-title {
+        color: #232323;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0;
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        word-break: initial;
+        word-wrap: break-word;
+    }
+}
+
+/*! CSS Used from: https://demo.joinwebs.com/classiera/plum/wp-content/themes/classiera/css/responsive.css?ver=1 ; media=all */
+@media all {
+    @media only screen and (max-width: 640px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+
+        .classiera-category-content {
+            align-items: stretch;
+        }
+
+        .classiera-category-new-v2-box {
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            height: auto;
+        }
+    }
+
+    @media only screen and (min-width: 640px) and (max-width: 767px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+    }
+
+    @media only screen and (min-width: 960px) and (max-width: 1024px) {
+        .section-pad {
+            padding: 30px 0;
+        }
+    }
+}
+
+/*! CSS Used from: Embedded */
+h5 {
+    font-family: Quicksand;
+    line-height: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #232323;
+    font-size: 14px;
+    font-display: swap;
+}
+
+div,
+a,
+img,
+section {
+    font-family: Quicksand;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: #7c7c7c;
+    font-size: 14px;
+    font-display: swap;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v29/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
